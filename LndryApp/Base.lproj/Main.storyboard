@@ -24,20 +24,20 @@
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="472"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Group 5249" translatesAutoresizingMaskIntoConstraints="NO" id="EoN-6H-3vk">
-                                        <rect key="frame" x="15" y="53.999999999999993" width="92.666666666666671" height="77.333333333333314"/>
+                                        <rect key="frame" x="15" y="34.999999999999993" width="92.666666666666671" height="77.333333333333314"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="EoN-6H-3vk" secondAttribute="height" multiplier="6:5" id="i0d-IX-dsf"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlg-wr-38T">
-                                        <rect key="frame" x="322" y="54" width="56" height="49.666666666666657"/>
+                                        <rect key="frame" x="322" y="35" width="56" height="49.666666666666657"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="wlg-wr-38T" secondAttribute="height" multiplier="9:8" id="5Ky-yX-UTx"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="Group 4920"/>
                                     </button>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="OI8-Dy-MGu">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="OI8-Dy-MGu">
                                         <rect key="frame" x="15" y="442" width="363" height="203"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableView>
@@ -45,7 +45,7 @@
                                 <color key="backgroundColor" white="1" alpha="0.7586144454" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="OI8-Dy-MGu" firstAttribute="top" secondItem="ZKT-Jk-nz0" secondAttribute="bottom" constant="-30" id="4rd-1T-arf"/>
-                                    <constraint firstItem="EoN-6H-3vk" firstAttribute="top" secondItem="ZKT-Jk-nz0" secondAttribute="top" constant="54" id="FK1-qD-QV4"/>
+                                    <constraint firstItem="EoN-6H-3vk" firstAttribute="top" secondItem="ZKT-Jk-nz0" secondAttribute="top" constant="35" id="FK1-qD-QV4"/>
                                     <constraint firstAttribute="trailing" secondItem="wlg-wr-38T" secondAttribute="trailing" constant="15" id="KNM-qB-gEX"/>
                                     <constraint firstAttribute="trailing" secondItem="ZKT-Jk-nz0" secondAttribute="trailing" id="RAm-eJ-OWy"/>
                                     <constraint firstAttribute="trailing" secondItem="OI8-Dy-MGu" secondAttribute="trailing" constant="15" id="Ut8-JH-3vr"/>

@@ -41,10 +41,14 @@ extension HomeVC : UITableViewDelegate, UITableViewDataSource {
         
         let cellData = tableData[indexPath.row]
         if indexPath.row % 2 == 0 {
-            cell.configureCell(info: cellData, color: UIColor(named: "lightBlue") ?? .blue)
+            cell.configureCell(info: cellData, color: UIColor(named: "lightBlue") ?? .blue, fontColor: UIColor(named: "darkBlue") ?? .white)
+            cell.nextImg.image = UIImage(named: "rightDark")
+
         } else {
             
-            cell.configureCell(info: cellData, color: UIColor(named: "darkBlue") ?? .blue)
+            cell.configureCell(info: cellData, color: UIColor(named: "darkBlue") ?? .blue, fontColor: UIColor(named: "lightBlue") ?? .white)
+            cell.nextImg.image = UIImage(named: "rightLight")
+
         }
        
         

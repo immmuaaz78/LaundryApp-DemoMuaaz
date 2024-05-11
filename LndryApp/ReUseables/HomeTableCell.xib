@@ -18,33 +18,33 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ZO-Pl-2YB">
-                        <rect key="frame" x="0.0" y="5" width="447" height="69.333333333333329"/>
+                        <rect key="frame" x="0.0" y="5" width="447" height="70"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="n7l-vG-k5g">
-                                <rect key="frame" x="20" y="10.000000000000004" width="407" height="49.333333333333343"/>
+                                <rect key="frame" x="20" y="10" width="407" height="50"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="noun_order_3831794" translatesAutoresizingMaskIntoConstraints="NO" id="CFB-cb-ms4">
-                                        <rect key="frame" x="0.0" y="0.0" width="49.333333333333336" height="49.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="CFB-cb-ms4" secondAttribute="height" multiplier="1:1" id="NWs-hw-cin"/>
                                             <constraint firstAttribute="width" constant="42" id="dKp-Ix-EuF"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ORDERS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56k-7d-fOF">
-                                        <rect key="frame" x="74.333333333333343" y="0.0" width="69.333333333333343" height="49.333333333333336"/>
+                                        <rect key="frame" x="75" y="0.0" width="69.333333333333314" height="50"/>
                                         <color key="backgroundColor" red="0.4941176471" green="0.82745098039999998" blue="0.94117647059999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z2Y-eO-6TP">
-                                        <rect key="frame" x="168.66666666666663" y="0.0" width="173.33333333333337" height="49.333333333333336"/>
+                                        <rect key="frame" x="169.33333333333337" y="0.0" width="182.66666666666663" height="50"/>
                                         <color key="backgroundColor" red="0.4941176471" green="0.82745098039999998" blue="0.94117647059999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icons8-next-48" translatesAutoresizingMaskIntoConstraints="NO" id="k3S-ic-TbS">
-                                        <rect key="frame" x="367" y="0.0" width="40" height="49.333333333333336"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="rightDark" translatesAutoresizingMaskIntoConstraints="NO" id="k3S-ic-TbS">
+                                        <rect key="frame" x="377" y="0.0" width="30" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="40" id="ap4-zp-UgH"/>
+                                            <constraint firstAttribute="width" constant="30" id="ap4-zp-UgH"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -79,8 +79,8 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="icons8-next-48" width="16" height="16"/>
         <image name="noun_order_3831794" width="38.333332061767578" height="49.333332061767578"/>
+        <image name="rightDark" width="32" height="32"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

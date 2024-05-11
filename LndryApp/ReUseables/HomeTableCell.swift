@@ -23,13 +23,15 @@ class HomeTableCell: UITableViewCell {
         // Initialization code
     }
 
-    func configureCell(info: [String: Any], color : UIColor) {
+    func configureCell(info: [String: Any], color : UIColor, fontColor : UIColor = .black) {
         if let image = info["image"] as? UIImage {
             mainImg.image = image
+
         }
-        
+                
         if let title = info["title"] as? String {
             titkeLbl.text = title
+            titkeLbl.textColor = fontColor
         }
         
         containerView.backgroundColor = color

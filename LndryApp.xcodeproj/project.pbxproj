@@ -339,6 +339,7 @@
 				DEVELOPMENT_TEAM = CYA5XHBXQV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LndryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Laundry App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -367,6 +368,7 @@
 				DEVELOPMENT_TEAM = CYA5XHBXQV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LndryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Laundry App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
